@@ -1,0 +1,98 @@
+/* MyBookings.css */
+
+.my-bookings {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #2980b9; /* Blue border */
+  border-radius: 5px;
+  background-color: #ecf0f1; /* Light gray background */
+}
+
+.my-bookings h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2980b9; /* Blue text color */
+}
+
+.my-bookings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.my-bookings li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.my-bookings li div {
+  margin-bottom: 5px;
+}
+
+.my-bookings li div:last-child {
+  margin-bottom: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn,
+.send-email-btn {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cancel-btn {
+  background-color: #e74c3c; /* Red background */
+  color: #fff; /* White text color */
+}
+
+.send-email-btn {
+  background-color: #3498db; /* Blue background */
+  color: #fff; /* White text color */
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b; /* Darker red background on hover */
+}
+
+.send-email-btn:hover {
+  background-color: #2980b9; /* Darker blue background on hover */
+}
+.email-textbox {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.email-textbox input[type="text"] {
+  width: 200px;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.email-textbox button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.email-textbox button:hover {
+  background-color: #0056b3;
+}
